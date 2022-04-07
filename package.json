@@ -1,9 +1,9 @@
 {
-  "name": "mf",
+  "name": "fmj-cli",
   "version": "1.0.0",
   "main": "index.js",
   "bin": {
-    "mf": "bin/cli.js"
+    "fmj-cli": "bin/cli.js"
   },
   "author": "fang <13085510025@163.com> (https://github.com/wokemeiyoukong)",
   "license": "MIT",
@@ -17,6 +17,7 @@
     "fs-extra": "^10.0.1",
     "handlebars": "^4.7.7",
     "inquirer": "^8.2.0",
+    "ora": "5.4.1",
     "shelljs": "^0.8.5"
   }
 }

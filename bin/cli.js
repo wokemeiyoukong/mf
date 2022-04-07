@@ -1,6 +1,6 @@
 #! /usr/bin/env node
 
-console.log('mf is working~')
+console.log('fmj-cli is working~')
 
 const program = require('commander')
 const chalk = require('chalk')
@@ -35,7 +35,7 @@ program.on('--help', () => {
 	// figlet for logo
 	console.log(
 		'\r\n' +
-			figlet.textSync('mf', {
+			figlet.textSync('fang', {
 				font: 'Ghost',
 				horizontalLayout: 'default',
 				verticalLayout: 'default',
@@ -43,7 +43,7 @@ program.on('--help', () => {
 				whitespaceBreak: true
 			})
 	)
-	console.log(`\r\nRun ${chalk.cyan(`mf <command> --help`)} for details\r\n`)
+	console.log(`\r\nRun ${chalk.cyan(`fmj-cli <command> --help`)} for details\r\n`)
 })
 
 // parse shell command args
