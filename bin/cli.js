@@ -17,15 +17,15 @@ program
   })
 
 // 配置 config 命令
-program
-  .command('config [value]')
-  .description('inspect and modify the config')
-  .option('-g, --get <path>', 'get value from option')
-  .option('-s, --set <path> <value>')
-  .option('-d, --delete <path>', 'delete option from config')
-  .action((value, options) => {
-    console.log(value, options)
-  })
+// program
+//   .command('config [value]')
+//   .description('inspect and modify the config')
+//   .option('-g, --get <path>', 'get value from option')
+//   .option('-s, --set <path> <value>')
+//   .option('-d, --delete <path>', 'delete option from config')
+//   .action((value, options) => {
+//     console.log(value, options)
+//   })
 
 program
   .version(`v${require('../package.json').version}`)
