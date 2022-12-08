@@ -4,8 +4,7 @@
 模板组织： 'https://api.github.com/orgs/little-cli/repos'
 文件快速生成功能
 日常的 git 提交 shell 脚本快速生成 避免复制拷贝
-删除目录指定文件
-传入文件后缀 递归删除
+删除目录指定文件 传入文件后缀 递归删除
 当前目录压缩 PNG|JPG 图片大小
 tinypng 压缩图片
 
